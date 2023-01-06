@@ -4,7 +4,7 @@
   "main": "./lib/main",
   "description": "Display a selectable tab for each editor open.",
   "license": "MIT",
-  "repository": "https://github.com/atom/tabs",
+  "repository": "https://github.com/pulsar-tabs/tabs",
   "engines": {
     "atom": ">=1.17.0"
   },
@@ -77,23 +77,5 @@
       "default": true,
       "description": "When MRU Tab Switching is enabled, display the most-recently-used tab list."
     }
-  },
-  "devDependencies": {
-    "coffeelint": "^1.9.7",
-    "standard": "^10.0.3"
-  },
-  "standard": {
-    "env": {
-      "atomtest": true,
-      "browser": true,
-      "jasmine": true,
-      "node": true
-    },
-    "globals": [
-      "atom"
-    ],
-    "ignore": [
-      "**/fixtures/*.js"
-    ]
   }
 }
